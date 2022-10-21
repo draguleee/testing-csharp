@@ -1,0 +1,8 @@
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\testing-csharp\bin\Debug\testing-csharp.exe.config
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\testing-csharp\bin\Debug\testing-csharp.exe
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\testing-csharp\bin\Debug\testing-csharp.pdb
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\testing-csharp\obj\Debug\testing-csharp.csproj.AssemblyReference.cache
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\testing-csharp\obj\Debug\testing-csharp.csproj.SuggestedBindingRedirects.cache
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\testing-csharp\obj\Debug\testing-csharp.csproj.CoreCompileInputs.cache
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\testing-csharp\obj\Debug\testing-csharp.exe
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\testing-csharp\obj\Debug\testing-csharp.pdb
