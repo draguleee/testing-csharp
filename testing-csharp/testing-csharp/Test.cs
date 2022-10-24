@@ -11,6 +11,8 @@ using System.Threading.Tasks;
 // using testing_csharp.Course3;
 // using testing_csharp.Course3.Course3_HW;
 using testing_csharp.Course4.AbstractClasses;
+using testing_csharp.Course4.Interfaces;
+using testing_csharp.Course4.Encapsulation;
 // using A;
 // using B;
 // using C;
@@ -245,8 +247,40 @@ namespace testing_csharp
             */
 
 
-            /**/
+            /* -----------------COURSE 4----------------- 
 
+            // Create Firefox and Internet Explorer objects
+            Console.WriteLine("ABSTRACT CLASSES");
+            testing_csharp.Course4.AbstractClasses.Firefox firefox1 = new testing_csharp.Course4.AbstractClasses.Firefox();
+            testing_csharp.Course4.AbstractClasses.InternetExplorer ie = new testing_csharp.Course4.AbstractClasses.InternetExplorer();
+
+            // Test the About() method
+            Console.WriteLine("TEST THE About() METHOD");
+            firefox1.About();
+            ie.About();
+            Console.WriteLine();
+
+            // Create Firefox and Skype objects 
+            Console.WriteLine("INTERFACES");
+            testing_csharp.Course4.Interfaces.Firefox firefox2 = new testing_csharp.Course4.Interfaces.Firefox();
+            testing_csharp.Course4.Interfaces.Skype skype = new testing_csharp.Course4.Interfaces.Skype();
+
+            // Test the About() method
+            Console.WriteLine("TEST THE About() METHOD");
+            firefox2.About();
+            skype.About();
+            Console.WriteLine();
+
+            // Encapsulation
+            Console.WriteLine("ENCAPSULATION");
+            testing_csharp.Course4.Encapsulation.Firefox firefox3 = new testing_csharp.Course4.Encapsulation.Firefox();
+            firefox3.WindowWidth = -1;
+            firefox3.StartBrowser();
+
+            */
+
+
+            /* -----------------COURSE 4 HOMEWORK----------------- */
 
 
             Console.ReadLine();

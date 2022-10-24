@@ -59,15 +59,19 @@
     <Compile Include="Course3\Debug.cs" />
     <Compile Include="Course3\Firefox.cs" />
     <Compile Include="Course3\InternetExplorer.cs" />
+    <Compile Include="Course4\AbstractClasses\Browser.cs" />
+    <Compile Include="Course4\AbstractClasses\Firefox.cs" />
+    <Compile Include="Course4\AbstractClasses\InternetExplorer.cs" />
+    <Compile Include="Course4\Encapsulation\Firefox.cs" />
+    <Compile Include="Course4\Interfaces\Firefox.cs" />
+    <Compile Include="Course4\Interfaces\IComponent.cs" />
+    <Compile Include="Course4\Interfaces\Skype.cs" />
     <Compile Include="Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="NewFolder1\" />
-    <Folder Include="NewFolder2\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
