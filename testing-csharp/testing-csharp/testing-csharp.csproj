@@ -50,11 +50,24 @@
     <Compile Include="Course2\Course2_HW\Firefox.cs" />
     <Compile Include="Course2\Course2_HW\InternetExplorer.cs" />
     <Compile Include="Course2\DataTypes.cs" />
+    <Compile Include="Course3\Browser.cs" />
+    <Compile Include="Course3\Course3_HW\Browser.cs" />
+    <Compile Include="Course3\Course3_HW\Chrome.cs" />
+    <Compile Include="Course3\Course3_HW\Edge.cs" />
+    <Compile Include="Course3\Course3_HW\Firefox.cs" />
+    <Compile Include="Course3\Course3_HW\InternetExplorer.cs" />
+    <Compile Include="Course3\Debug.cs" />
+    <Compile Include="Course3\Firefox.cs" />
+    <Compile Include="Course3\InternetExplorer.cs" />
     <Compile Include="Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
+    <Folder Include="NewFolder2\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

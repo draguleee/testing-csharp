@@ -5,12 +5,16 @@ using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 // using testing_csharp.Course1;
-using testing_csharp.Course2;
-using A;
-using B;
-using C;
-using D;
-using System.Runtime.InteropServices;
+// using testing_csharp.Course1.Course1_HW;
+// using testing_csharp.Course2;
+// using testing_csharp.Course2.Course2_HW;
+// using testing_csharp.Course3;
+// using testing_csharp.Course3.Course3_HW;
+using testing_csharp.Course4.AbstractClasses;
+// using A;
+// using B;
+// using C;
+// using D;
 
 namespace testing_csharp
 {
@@ -131,7 +135,7 @@ namespace testing_csharp
             */
 
 
-            /* -----------------COURSE 2 HOMEWORK----------------- */
+            /* -----------------COURSE 2 HOMEWORK----------------- 
 
             // Create objects for Browser class
             Console.WriteLine("BROWSER CLASS");
@@ -174,7 +178,75 @@ namespace testing_csharp
             InternetExplorer internetExplorer3 = new InternetExplorer(820);
             internetExplorer2.PrintWindowWidth_int();
             internetExplorer3.PrintWindowWidth_int();
-            /* COURSE 3 */
+            Console.WriteLine();
+
+            */
+
+
+            /* -----------------COURSE 3----------------- 
+
+            // Create objects 
+            Firefox firefox = new Firefox();
+            InternetExplorer ie = new InternetExplorer();
+
+            // Change window width for Firefox object
+            Console.WriteLine("FIREFOX");
+            firefox.ChangeWindowWidth(1080);
+            firefox.ChangeWindowWidth("2048");
+            firefox.ChangeWindowWidth(1920.0);
+            Console.WriteLine();
+
+            // Change window width for InternetExplorer object
+            Console.WriteLine("INTERNET EXPLORER");
+            ie.ChangeWindowWidth(1440);
+            ie.ChangeWindowWidth("720");
+            ie.ChangeWindowWidth(2440.0);
+            Console.WriteLine();
+
+            */
+
+
+            /* -----------------COURSE 3 HOMEWORK----------------- 
+
+            // Create objects for Firefox, Chrome, InternetExplorer and Edge
+            Firefox firefox = new Firefox();
+            Chrome chrome = new Chrome();
+            InternetExplorer ie = new InternetExplorer();
+            Edge edge = new Edge();
+
+            // Call available methods for Firefox class
+            Console.WriteLine("FIREFOX");
+            firefox.About();
+            firefox.SetProfileName("Andre");
+            firefox.ChangeWindowWidth(1080);
+            Console.WriteLine();
+
+            // Call available methods for Chrome class
+            Console.WriteLine("CHROME");
+            chrome.About();
+            chrome.ChangeWindowWidth(1920);
+            chrome.ChangeWindowWidth("1440");
+            Console.WriteLine();
+
+            // Call available methods for InternetExplorer class
+            Console.WriteLine("INTERNET EXPLORER");
+            ie.About();
+            ie.ChangeWindowWidth(920);
+            Console.WriteLine();
+
+            // Call available methods for Edge class
+            Console.WriteLine("EDGE");
+            edge.About();
+            edge.SetVersion(120);
+            edge.NewFeatureFunction();
+            edge.ChangeWindowWidth(2040);
+            Console.WriteLine();
+
+            */
+
+
+            /**/
+
 
 
             Console.ReadLine();
