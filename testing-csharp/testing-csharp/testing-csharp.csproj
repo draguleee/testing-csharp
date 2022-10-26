@@ -62,10 +62,18 @@
     <Compile Include="Course4\AbstractClasses\Browser.cs" />
     <Compile Include="Course4\AbstractClasses\Firefox.cs" />
     <Compile Include="Course4\AbstractClasses\InternetExplorer.cs" />
+    <Compile Include="Course4\Course4_HW\Browser.cs" />
+    <Compile Include="Course4\Course4_HW\Firefox.cs" />
+    <Compile Include="Course4\Course4_HW\IComponent.cs" />
+    <Compile Include="Course4\Course4_HW\INetwork.cs" />
+    <Compile Include="Course4\Course4_HW\Skype.cs" />
     <Compile Include="Course4\Encapsulation\Firefox.cs" />
     <Compile Include="Course4\Interfaces\Firefox.cs" />
     <Compile Include="Course4\Interfaces\IComponent.cs" />
     <Compile Include="Course4\Interfaces\Skype.cs" />
+    <Compile Include="Course5\Course5_HW\Browser.cs" />
+    <Compile Include="Course5\Course5_HW\BrowserHelper.cs" />
+    <Compile Include="Course5\Math.cs" />
     <Compile Include="Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

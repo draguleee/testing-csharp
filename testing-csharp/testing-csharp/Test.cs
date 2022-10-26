@@ -10,9 +10,12 @@ using System.Threading.Tasks;
 // using testing_csharp.Course2.Course2_HW;
 // using testing_csharp.Course3;
 // using testing_csharp.Course3.Course3_HW;
-using testing_csharp.Course4.AbstractClasses;
-using testing_csharp.Course4.Interfaces;
-using testing_csharp.Course4.Encapsulation;
+// using testing_csharp.Course4.AbstractClasses;
+// using testing_csharp.Course4.Interfaces;
+// using testing_csharp.Course4.Encapsulation;
+// using testing_csharp.Course4.Course4_HW;
+// using testing_csharp.Course5;
+using testing_csharp.Course5.Course5_HW;
 // using A;
 // using B;
 // using C;
@@ -280,8 +283,37 @@ namespace testing_csharp
             */
 
 
-            /* -----------------COURSE 4 HOMEWORK----------------- */
+            /* -----------------COURSE 4 HOMEWORK----------------- 
 
+            // Create Firefox and Skype objects
+            Firefox firefox = new Firefox();
+            Skype skype = new Skype();
+
+            // Test the methods of Firefox class
+            Console.WriteLine("FIREFOX");
+            firefox.StartBrowser();
+            firefox.Ping();
+            firefox.About();
+            firefox.DisplayWindowWidth();
+            firefox.ChangeWindowWidth(2048);
+            firefox.StopBrowser();
+            Console.WriteLine();
+
+            // Test the methods of Skype class
+            Console.WriteLine("SKYPE");
+            skype.Ping();
+            skype.About();
+            Console.WriteLine();
+
+            */
+
+
+            /* -----------------COURSE 5----------------- */
+
+            // Exception handling
+            Console.WriteLine("EXCEPTION HANDLING");
+            testing_csharp.Course5.Math operation = new testing_csharp.Course5.Math();
+            operation.Division(2, 0);
 
             Console.ReadLine();
         }
