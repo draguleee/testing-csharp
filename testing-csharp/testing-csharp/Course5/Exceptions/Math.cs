@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace testing_csharp.Course5
+namespace testing_csharp.Course5.Exceptions
 {
     public class Math
     {

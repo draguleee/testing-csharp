@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Course1\Browser.cs" />
     <Compile Include="Course1\Course1_HW\Browser.cs" />
     <Compile Include="Course1\FirstProgram.cs" />
     <Compile Include="Course2\Course2_HW\Browser.cs" />
@@ -71,9 +72,14 @@
     <Compile Include="Course4\Interfaces\Firefox.cs" />
     <Compile Include="Course4\Interfaces\IComponent.cs" />
     <Compile Include="Course4\Interfaces\Skype.cs" />
+    <Compile Include="Course5\AccessModifiers\AccessModifiers.cs" />
+    <Compile Include="Course5\AccessModifiers\AccessModifiersAssemblyClass.cs" />
+    <Compile Include="Course5\AccessModifiers\AccessModifiersChildClass.cs" />
+    <Compile Include="Course5\AccessModifiers\AccessModifiersOutsideAssembly.cs" />
     <Compile Include="Course5\Course5_HW\Browser.cs" />
     <Compile Include="Course5\Course5_HW\BrowserHelper.cs" />
-    <Compile Include="Course5\Math.cs" />
+    <Compile Include="Course5\Exceptions\Math.cs" />
+    <Compile Include="Course5\StaticMembers\StaticClass.cs" />
     <Compile Include="Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

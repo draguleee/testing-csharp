@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 // using testing_csharp.Course4.Interfaces;
 // using testing_csharp.Course4.Encapsulation;
 // using testing_csharp.Course4.Course4_HW;
-// using testing_csharp.Course5;
+// using testing_csharp.Course5.Exceptions;
 using testing_csharp.Course5.Course5_HW;
 // using A;
 // using B;
@@ -33,6 +33,19 @@ namespace testing_csharp
             // First Program
             FirstProgram firstProgram = new FirstProgram();
             firstProgram.HelloWorld();
+
+            // Create Browser objects
+            Browser browser1 = new Browser();
+            Browser browser2 = new Browser(1600);
+
+            // Call a method
+            browser1.ChangeWindowWidth(1600);
+            browser2.ChangeWindowWidth(1920);
+
+            */
+
+
+            /* -----------------COURSE 1 HOMEWORK-----------------
 
             // Create a Browser object 
             Browser ie = new Browser();
