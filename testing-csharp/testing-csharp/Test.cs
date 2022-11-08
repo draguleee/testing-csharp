@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Media;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 // using testing_csharp.Course1;
@@ -15,7 +16,13 @@ using System.Threading.Tasks;
 // using testing_csharp.Course4.Encapsulation;
 // using testing_csharp.Course4.Course4_HW;
 // using testing_csharp.Course5.Exceptions;
-using testing_csharp.Course5.Course5_HW;
+// using testing_csharp.Course5.StaticMembers;
+// using testing_csharp.Course5.Course5_HW.Exercise1;
+// using testing_csharp.Course5.Course5_HW.Exercise2;
+// using testing_csharp.Course6_Part1;
+using testing_csharp.Course6_Part1.Course6_Part1_HW.Exercise1;
+using testing_csharp.Course6_Part1.Course6_Part1_HW.Exercise2;
+using testing_csharp.Course6_Part1.Course6_Part1_HW.Exercise3;
 // using A;
 // using B;
 // using C;
@@ -321,12 +328,134 @@ namespace testing_csharp
             */
 
 
-            /* -----------------COURSE 5----------------- */
+            /* -----------------COURSE 5----------------- 
 
             // Exception handling
             Console.WriteLine("EXCEPTION HANDLING");
-            testing_csharp.Course5.Math operation = new testing_csharp.Course5.Math();
+            testing_csharp.Course5.Exceptions.Math operation = new testing_csharp.Course5.Exceptions.Math();
             operation.Division(2, 0);
+            Consiole.WriteLine();
+
+            // Static members
+            Console.WriteLine("STATIC MEMBERS");
+            StaticClass.Number = 10;
+            StaticClass.DisplayNumber();
+            Console.WriteLine();
+
+            */
+
+
+            /* -----------------COURSE 5 HOMEWORK----------------- 
+
+            // Create Browser objects and test the accesibility level
+            Console.WriteLine("EXCEPTIONS & STATIC MEMBERS");
+            Browser_1 browser1 = new Browser_1();       // public
+            Browser_2 browser2 = new Browser_2();       // internal
+            Browser_3 browser3 = new Browser_3();       // private
+            Browser_4 browser4 = new Browser_4();       // internal protected
+            Browser_5 browser5 = new Browser_5();       // protected
+            Browser_6 browser6 = new Browser_6();       // default private 
+            browser1.SendTextToElement();   
+            browser2.SendTextToElement();
+            // browser3.SendTextToElement();
+            browser4.SendTextToElement();
+            // browser5.SendTextToElement();
+            // browser6.SendTextToElement();   
+            Console.WriteLine();
+
+            // Create Chrome, Firefox and Edge objects and test the TestAccess() method
+            Console.WriteLine("ACCESS MODIFIERS");
+            testing_csharp.Course5.Course5_HW.Exercise2.Chrome chrome = new testing_csharp.Course5.Course5_HW.Exercise2.Chrome();
+            testing_csharp.Course5.Course5_HW.Exercise2.Firefox firefox = new testing_csharp.Course5.Course5_HW.Exercise2.Firefox();
+            testing_csharp.Course5.Course5_HW.Exercise2.Edge edge = new testing_csharp.Course5.Course5_HW.Exercise2.Edge();
+            Console.WriteLine("Chrome: ");
+            chrome.TestAccess();
+            Console.WriteLine();
+            Console.WriteLine("Firefox: ");
+            firefox.TestAccess();
+            Console.WriteLine();
+            Console.WriteLine("Edge: ");
+            edge.TestAccess();
+            Console.WriteLine();
+
+            */
+
+
+            /* -----------------COURSE 6-----------------
+
+            // Show default values
+            Console.WriteLine("DEFAULT VALUES");
+            DefaultValues defaultValues = new DefaultValues();
+            defaultValues.ShowDefaultValues();
+            Console.WriteLine();
+
+            // Methods types
+            Console.WriteLine("METHODS TYPES");
+            MethodsTypes ms = new MethodsTypes();
+            ms.NoReturnNoParams();
+            ms.NoReturnWithParams(1080);
+            ms.WithReturnNoParams();
+            ms.WithReturnWithParams(1920);
+            ms.WithObjectParams(defaultValues);
+            Console.WriteLine();
+
+            // Arrays, For and Foreach
+            Console.WriteLine("ARRAYS, FOR AND FOREACH");
+            Arrays arrays = new Arrays();
+            arrays.ArrayMethod();
+            arrays.ArrayMethodFor();
+            arrays.ArrayMethodForeach();
+            Console.WriteLine("\n");
+
+            // Lists
+            Console.WriteLine("LISTS");
+            Lists lists = new Lists();
+            lists.ListMethod();
+            lists.ListMethodForeach();
+            Console.WriteLine("\n");
+
+            // XPaths
+            Console.WriteLine("XPATHS");
+            XPaths paths = new XPaths();
+            paths.PrintXPaths();
+            Console.WriteLine();
+
+            */
+
+
+            /* -----------------COURSE 6 HOMEWORK-----------------
+
+            // Exercise 1
+            Console.WriteLine("EXERCISE 1");
+            testing_csharp.Course6_Part1.Course6_Part1_HW.Exercise1.Firefox firefox11 = new testing_csharp.Course6_Part1.Course6_Part1_HW.Exercise1.Firefox();
+            testing_csharp.Course6_Part1.Course6_Part1_HW.Exercise1.Firefox firefox12 = new testing_csharp.Course6_Part1.Course6_Part1_HW.Exercise1.Firefox();
+            testing_csharp.Course6_Part1.Course6_Part1_HW.Exercise1.Firefox firefox13 = new testing_csharp.Course6_Part1.Course6_Part1_HW.Exercise1.Firefox();
+            int WindowWidth11 = firefox11.GetWindowWidth();
+            int WindowWidth12 = firefox12.GetWindowWidth();
+            int WindowWidth13 = firefox13.GetWindowWidth();
+            Console.WriteLine();
+
+            // Exercise 2
+            Console.WriteLine("EXERCISE 2");
+            HomePage homepage = new HomePage();
+            homepage.PrintXPaths();
+            Console.WriteLine();
+
+            // Exercise 3
+            Console.WriteLine("EXERCISE 3");
+            testing_csharp.Course6_Part1.Course6_Part1_HW.Exercise3.Firefox firefox31 = new testing_csharp.Course6_Part1.Course6_Part1_HW.Exercise3.Firefox();
+            testing_csharp.Course6_Part1.Course6_Part1_HW.Exercise3.Firefox firefox32 = new testing_csharp.Course6_Part1.Course6_Part1_HW.Exercise3.Firefox(2040);
+            testing_csharp.Course6_Part1.Course6_Part1_HW.Exercise3.Firefox firefox33 = new testing_csharp.Course6_Part1.Course6_Part1_HW.Exercise3.Firefox("1440");
+            int WindowWidth31 = firefox31.GetWindowWidth();
+            int WindowWidth32 = firefox32.GetWindowWidth();
+            int WindowWidth33 = firefox33.GetWindowWidth();
+            TestsRunner testsRunner = new TestsRunner();
+            testsRunner.Run(firefox31);
+            testsRunner.Run(firefox32);
+            testsRunner.Run(firefox33);
+            Console.WriteLine();
+
+            */
 
             Console.ReadLine();
         }

@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace testing_csharp.Course5.StaticMembers
 {
-    internal class StaticClass
+    static class StaticClass
     {
+        // Static variable
+        public static int Number = 5;
+
+        // Static method
+        public static void DisplayNumber()
+        {
+            Console.WriteLine("Number is: " + Number);
+        }
     }
 }

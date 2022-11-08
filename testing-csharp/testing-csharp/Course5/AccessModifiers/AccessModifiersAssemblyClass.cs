@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace testing_csharp.Course5.AccessModifiers
 {
-    internal class AccessModifiersAssemblyClass
+    class AccessModifiersAssemblyClass
     {
+        public void testAccess()
+        {
+            AccessModifiers am = new AccessModifiers();
+            am.TestPublic();
+            am.TestInternal();
+            // am.TestProtected();
+            am.TestInternalProtected();
+            // am.TestPrivate();
+            // am.TestDefaultPrivate();
+        }
     }
 }

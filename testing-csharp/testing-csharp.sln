@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testing-csharp", "testing-csharp\testing-csharp.csproj", "{6A6949A4-21FD-4785-8E65-BB1C6D51A611}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-basics", "testing-csharp\csharp-basics.csproj", "{6A6949A4-21FD-4785-8E65-BB1C6D51A611}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "testing-nunit", "testing-nunit\testing-nunit.csproj", "{4C9A44D0-1993-44A6-893F-B2CE17FA7A64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6A6949A4-21FD-4785-8E65-BB1C6D51A611}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A6949A4-21FD-4785-8E65-BB1C6D51A611}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A6949A4-21FD-4785-8E65-BB1C6D51A611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C9A44D0-1993-44A6-893F-B2CE17FA7A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9A44D0-1993-44A6-893F-B2CE17FA7A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9A44D0-1993-44A6-893F-B2CE17FA7A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9A44D0-1993-44A6-893F-B2CE17FA7A64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

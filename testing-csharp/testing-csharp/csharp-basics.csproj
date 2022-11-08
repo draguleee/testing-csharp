@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6A6949A4-21FD-4785-8E65-BB1C6D51A611}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>testing_csharp</RootNamespace>
+    <AssemblyName>testing-csharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Course1\Browser.cs" />
+    <Compile Include="Course1\Course1_HW\Browser.cs" />
+    <Compile Include="Course1\FirstProgram.cs" />
+    <Compile Include="Course2\Course2_HW\Browser.cs" />
+    <Compile Include="Course2\Course2_HW\Chrome.cs" />
+    <Compile Include="Course2\Course2_HW\Firefox.cs" />
+    <Compile Include="Course2\Course2_HW\InternetExplorer.cs" />
+    <Compile Include="Course2\DataTypes.cs" />
+    <Compile Include="Course3\Browser.cs" />
+    <Compile Include="Course3\Course3_HW\Browser.cs" />
+    <Compile Include="Course3\Course3_HW\Chrome.cs" />
+    <Compile Include="Course3\Course3_HW\Edge.cs" />
+    <Compile Include="Course3\Course3_HW\Firefox.cs" />
+    <Compile Include="Course3\Course3_HW\InternetExplorer.cs" />
+    <Compile Include="Course3\Debug.cs" />
+    <Compile Include="Course3\Firefox.cs" />
+    <Compile Include="Course3\InternetExplorer.cs" />
+    <Compile Include="Course4\AbstractClasses\Browser.cs" />
+    <Compile Include="Course4\AbstractClasses\Firefox.cs" />
+    <Compile Include="Course4\AbstractClasses\InternetExplorer.cs" />
+    <Compile Include="Course4\Course4_HW\Browser.cs" />
+    <Compile Include="Course4\Course4_HW\Firefox.cs" />
+    <Compile Include="Course4\Course4_HW\IComponent.cs" />
+    <Compile Include="Course4\Course4_HW\INetwork.cs" />
+    <Compile Include="Course4\Course4_HW\Skype.cs" />
+    <Compile Include="Course4\Encapsulation\Firefox.cs" />
+    <Compile Include="Course4\Interfaces\Firefox.cs" />
+    <Compile Include="Course4\Interfaces\IComponent.cs" />
+    <Compile Include="Course4\Interfaces\Skype.cs" />
+    <Compile Include="Course5\AccessModifiers\AccessModifiers.cs" />
+    <Compile Include="Course5\AccessModifiers\AccessModifiersAssemblyClass.cs" />
+    <Compile Include="Course5\AccessModifiers\AccessModifiersChildClass.cs" />
+    <Compile Include="Course5\AccessModifiers\AccessModifiersOutsideAssembly.cs" />
+    <Compile Include="Course5\Course5_HW\Exercise1\Browser_1.cs" />
+    <Compile Include="Course5\Course5_HW\Exercise1\BrowserHelper.cs" />
+    <Compile Include="Course5\Course5_HW\Exercise1\Browser_2.cs" />
+    <Compile Include="Course5\Course5_HW\Exercise1\Browser_3.cs" />
+    <Compile Include="Course5\Course5_HW\Exercise1\Browser_4.cs" />
+    <Compile Include="Course5\Course5_HW\Exercise1\Browser_5.cs" />
+    <Compile Include="Course5\Course5_HW\Exercise1\Browser_6.cs" />
+    <Compile Include="Course5\Course5_HW\Exercise2\Browser.cs" />
+    <Compile Include="Course5\Course5_HW\Exercise2\Chrome.cs" />
+    <Compile Include="Course5\Course5_HW\Exercise2\Edge.cs" />
+    <Compile Include="Course5\Course5_HW\Exercise2\Firefox.cs" />
+    <Compile Include="Course5\Exceptions\Math.cs" />
+    <Compile Include="Course5\StaticMembers\StaticClass.cs" />
+    <Compile Include="Course6_Part1\Arrays.cs" />
+    <Compile Include="Course6_Part1\Course6_Part1_HW\Exercise1\Firefox.cs" />
+    <Compile Include="Course6_Part1\Course6_Part1_HW\Exercise2\HomePage.cs" />
+    <Compile Include="Course6_Part1\Course6_Part1_HW\Exercise3\Firefox.cs" />
+    <Compile Include="Course6_Part1\Course6_Part1_HW\Exercise3\TestsRunner.cs" />
+    <Compile Include="Course6_Part1\DefaultValues.cs" />
+    <Compile Include="Course6_Part1\Lists.cs" />
+    <Compile Include="Course6_Part1\MethodsTypes.cs" />
+    <Compile Include="Course6_Part1\XPaths.cs" />
+    <Compile Include="Test.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
