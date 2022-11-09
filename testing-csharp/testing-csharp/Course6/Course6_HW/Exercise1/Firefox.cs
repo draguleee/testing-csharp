@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace testing_csharp.Course6_Part1.Course6_Part1_HW.Exercise1
+namespace testing_csharp.Course6.Course6_HW.Exercise1
 {
     public class Firefox
     {

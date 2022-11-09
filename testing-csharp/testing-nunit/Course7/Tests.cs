@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace testing_nunit.Course6_Part2
+namespace testing_nunit.Course7
 {
     [TestFixture]
     public class Tests

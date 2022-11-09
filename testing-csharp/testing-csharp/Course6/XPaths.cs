@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace testing_csharp.Course6_Part1
+namespace testing_csharp.Course6
 {
     public class XPaths
     {
