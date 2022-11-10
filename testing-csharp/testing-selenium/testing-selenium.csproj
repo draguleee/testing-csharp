@@ -57,6 +57,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Course8\Course8_HW\HomePage.cs" />
     <Compile Include="Course8\FirstSeleniumTests.cs" />
+    <Compile Include="Course9\Course9_HW\HomePage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
