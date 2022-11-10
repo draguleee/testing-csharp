@@ -1,0 +1,15 @@
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\testing-selenium\bin\Debug\Drivers\chromedriver.exe
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\testing-selenium\bin\Debug\selenium-manager\linux\selenium-manager
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\testing-selenium\bin\Debug\selenium-manager\macos\selenium-manager
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\testing-selenium\bin\Debug\selenium-manager\windows\selenium-manager.exe
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\testing-selenium\bin\Debug\testing-selenium.dll
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\testing-selenium\bin\Debug\testing-selenium.pdb
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\testing-selenium\bin\Debug\nunit.framework.dll
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\testing-selenium\bin\Debug\WebDriver.dll
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\testing-selenium\bin\Debug\WebDriver.Support.dll
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\testing-selenium\bin\Debug\nunit.framework.xml
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\testing-selenium\obj\Debug\testing-selenium.csproj.AssemblyReference.cache
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\testing-selenium\obj\Debug\testing-selenium.csproj.CoreCompileInputs.cache
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\testing-selenium\obj\Debug\testing-selenium.csproj.CopyComplete
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\testing-selenium\obj\Debug\testing-selenium.dll
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\testing-selenium\obj\Debug\testing-selenium.pdb

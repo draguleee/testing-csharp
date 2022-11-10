@@ -89,15 +89,15 @@
     <Compile Include="Course5\Course5_HW\Exercise2\Firefox.cs" />
     <Compile Include="Course5\Exceptions\Math.cs" />
     <Compile Include="Course5\StaticMembers\StaticClass.cs" />
-    <Compile Include="Course6_Part1\Arrays.cs" />
-    <Compile Include="Course6_Part1\Course6_Part1_HW\Exercise1\Firefox.cs" />
-    <Compile Include="Course6_Part1\Course6_Part1_HW\Exercise2\HomePage.cs" />
-    <Compile Include="Course6_Part1\Course6_Part1_HW\Exercise3\Firefox.cs" />
-    <Compile Include="Course6_Part1\Course6_Part1_HW\Exercise3\TestsRunner.cs" />
-    <Compile Include="Course6_Part1\DefaultValues.cs" />
-    <Compile Include="Course6_Part1\Lists.cs" />
-    <Compile Include="Course6_Part1\MethodsTypes.cs" />
-    <Compile Include="Course6_Part1\XPaths.cs" />
+    <Compile Include="Course6\Arrays.cs" />
+    <Compile Include="Course6\Course6_HW\Exercise1\Firefox.cs" />
+    <Compile Include="Course6\Course6_HW\Exercise2\HomePage.cs" />
+    <Compile Include="Course6\Course6_HW\Exercise3\Firefox.cs" />
+    <Compile Include="Course6\Course6_HW\Exercise3\TestsRunner.cs" />
+    <Compile Include="Course6\DefaultValues.cs" />
+    <Compile Include="Course6\Lists.cs" />
+    <Compile Include="Course6\MethodsTypes.cs" />
+    <Compile Include="Course6\XPaths.cs" />
     <Compile Include="Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
