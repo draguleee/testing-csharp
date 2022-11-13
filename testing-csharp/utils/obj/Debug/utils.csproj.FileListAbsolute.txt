@@ -1,0 +1,10 @@
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\utils\bin\Debug\utils.dll
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\utils\bin\Debug\utils.pdb
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\utils\obj\Debug\utils.csproj.AssemblyReference.cache
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\utils\obj\Debug\utils.csproj.CoreCompileInputs.cache
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\utils\obj\Debug\utils.dll
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\utils\obj\Debug\utils.pdb
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\utils\bin\Debug\SeleniumExtras.WaitHelpers.dll
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\utils\bin\Debug\WebDriver.dll
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\utils\bin\Debug\WebDriver.xml
+C:\Users\aandr\source\repos\testing-csharp\testing-csharp\utils\obj\Debug\utils.csproj.CopyComplete

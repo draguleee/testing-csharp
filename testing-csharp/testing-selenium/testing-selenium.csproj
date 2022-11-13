@@ -58,6 +58,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Course10\Course10_HW\DashboardPage\DashboardPageExplicitWaitTest.cs" />
+    <Compile Include="Course10\Course10_HW\DashboardPage\DashboardPageBodyTests.cs" />
+    <Compile Include="Course10\Course10_HW\DashboardPage\DashboardPageFluentWaitText.cs" />
+    <Compile Include="Course10\Course10_HW\DashboardPage\DashboardPageFooterTests.cs" />
+    <Compile Include="Course10\Course10_HW\DashboardPage\DashboardPageHeaderTests.cs" />
+    <Compile Include="Course10\Course10_HW\DashboardPage\DashboardPageImplicitWaitTest.cs" />
+    <Compile Include="Course10\Course10_HW\DashboardPage\DashboardPageTestBase.cs" />
+    <Compile Include="Course10\Course10_HW\HomePage\HomePageBodyTests.cs" />
+    <Compile Include="Course10\Course10_HW\HomePage\HomePageExplicitWaitTest.cs" />
+    <Compile Include="Course10\Course10_HW\HomePage\HomePageFluentWaitTest.cs" />
+    <Compile Include="Course10\Course10_HW\HomePage\HomePageFooterTests.cs" />
+    <Compile Include="Course10\Course10_HW\HomePage\HomePageTestBase.cs" />
+    <Compile Include="Course10\Course10_HW\HomePage\HomePageHeaderTests.cs" />
+    <Compile Include="Course10\Course10_HW\HomePage\HomePageImplicitWaitTest.cs" />
+    <Compile Include="Course10\Waits.cs" />
     <Compile Include="Course8\Course8_HW\HomePage.cs" />
     <Compile Include="Course8\FirstSeleniumTests.cs" />
     <Compile Include="Course9\Course9_HW\HomePage.cs" />
@@ -72,6 +87,13 @@
     <Content Include="Drivers\chromedriver.exe">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\utils\utils.csproj">
+      <Project>{1D85A55F-33DA-4C31-BA34-5C437DE05890}</Project>
+      <Name>utils</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Selenium.WebDriver.4.6.0\build\Selenium.WebDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.4.6.0\build\Selenium.WebDriver.targets')" />

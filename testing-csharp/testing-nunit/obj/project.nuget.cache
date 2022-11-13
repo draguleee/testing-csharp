@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ar0H7DPVRToxrO4cZYslsy5888TVu5Ef/LgB2MPwzKBDA5otv/kEtX6xMr+EP8paE8Fsvc/HkNABWK80vi3w+g==",
+  "dgSpecHash": "1DqbbXxT12VMB/PgJ0bIFrxyyYwAvYGE+jfWPAAr96jkS2Xl3fg3vxPl4D1a8WGxj6GOBeCefQLYYYpihWKrew==",
   "success": true,
   "projectFilePath": "C:\\Users\\aandr\\source\\repos\\testing-csharp\\testing-csharp\\testing-nunit\\testing-nunit.csproj",
   "expectedPackageFiles": [
@@ -48,10 +48,7 @@
     "C:\\Users\\aandr\\.nuget\\packages\\system.threading.tasks\\4.0.11\\system.threading.tasks.4.0.11.nupkg.sha512",
     "C:\\Users\\aandr\\.nuget\\packages\\system.threading.tasks.extensions\\4.0.0\\system.threading.tasks.extensions.4.0.0.nupkg.sha512",
     "C:\\Users\\aandr\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
-    "C:\\Users\\aandr\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
-    "C:\\Users\\aandr\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\aandr\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\aandr\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512"
+    "C:\\Users\\aandr\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
   ],
   "logs": []
 }
