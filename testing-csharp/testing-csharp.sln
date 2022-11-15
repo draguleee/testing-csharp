@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testing-selenium", "testing
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "utils", "utils\utils.csproj", "{1D85A55F-33DA-4C31-BA34-5C437DE05890}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "page-objects", "page-objects\page-objects.csproj", "{51B0E7E7-5ACB-4AF5-B7EC-B361C5AC3688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "tests\tests.csproj", "{C6BBB8D5-D982-402A-A188-29D904714935}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{1D85A55F-33DA-4C31-BA34-5C437DE05890}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D85A55F-33DA-4C31-BA34-5C437DE05890}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D85A55F-33DA-4C31-BA34-5C437DE05890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51B0E7E7-5ACB-4AF5-B7EC-B361C5AC3688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B0E7E7-5ACB-4AF5-B7EC-B361C5AC3688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51B0E7E7-5ACB-4AF5-B7EC-B361C5AC3688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51B0E7E7-5ACB-4AF5-B7EC-B361C5AC3688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6BBB8D5-D982-402A-A188-29D904714935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6BBB8D5-D982-402A-A188-29D904714935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6BBB8D5-D982-402A-A188-29D904714935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6BBB8D5-D982-402A-A188-29D904714935}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
